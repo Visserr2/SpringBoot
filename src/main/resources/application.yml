@@ -1,0 +1,14 @@
+info:
+  app:
+    name: Spring Boot Demo App
+    description: Spring Boot Demo App description
+    version: 1.0.0
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+        exclude:
+        - health
